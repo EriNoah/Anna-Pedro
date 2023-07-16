@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Anna-Pedro/static/css/main.528571e7.css",
+    "main.js": "/Anna-Pedro/static/js/main.e24267bb.js",
+    "index.html": "/Anna-Pedro/index.html",
+    "main.528571e7.css.map": "/Anna-Pedro/static/css/main.528571e7.css.map",
+    "main.e24267bb.js.map": "/Anna-Pedro/static/js/main.e24267bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.528571e7.css",
+    "static/js/main.e24267bb.js"
+  ]
+}
