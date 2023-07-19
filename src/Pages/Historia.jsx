@@ -1,4 +1,6 @@
 import React from "react";
+import foto1 from "../assets/foto1.jpg"
+import foto2 from "../assets/foto2.jpg"
 
 function Historia() {
   return (
@@ -23,12 +25,12 @@ function Historia() {
       <div className=" w-full  me-14">
         <img
           className="max-h-[500px] absolute drop-shadow-2xl rounded-lg"
-          src="/images/foto1.jpg"
+          src={foto1}
           alt="foto1"
         />
         <img
           className="max-h-[300px] relative top-80 left-60 rounded-lg drop-shadow-2xl "
-          src="/images/foto2.jpg"
+          src={foto2}
           alt="foto2"
         />
       </div>

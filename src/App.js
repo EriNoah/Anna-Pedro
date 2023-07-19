@@ -1,10 +1,10 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Historia from "./components/Pages/Historia";
-import Home from "./components/Pages/Home";
-import ListaDePresentes from "./components/Pages/ListaDePresentes";
-import OCasamento from "./components/Pages/OCasamiento";
+import OCasamento from "./Pages/OCasamiento";
+import Historia from "./Pages/Historia";
+import Home from "./Pages/Home";
+import ListaDePresentes from "./Pages/ListaDePresentes";
 // import Footer from "./components/Footer";
 
 function App() {
