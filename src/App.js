@@ -17,7 +17,6 @@ function App() {
         <Route path="/a-nossa-historia" element={<Historia />} />
         <Route path="/lista-de-presentes" element={<ListaDePresentes />} />
       </Routes>
-      {/* <Footer /> */}
     </Router>
   );
 }
