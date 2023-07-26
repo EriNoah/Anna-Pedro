@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import OCasamento from "./Pages/OCasamiento";
 import Historia from "./Pages/Historia";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/a-nossa-historia" element={<Historia />} />
         <Route path="/lista-de-presentes" element={<ListaDePresentes />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
