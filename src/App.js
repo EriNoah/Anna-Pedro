@@ -5,7 +5,6 @@ import OCasamento from "./Pages/OCasamiento";
 import Historia from "./Pages/Historia";
 import Home from "./Pages/Home";
 import ListaDePresentes from "./Pages/ListaDePresentes";
-// import Footer from "./components/Footer";
 
 function App() {
   return (
