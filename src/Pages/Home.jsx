@@ -19,23 +19,6 @@ function Home() {
             Esporte fino
           </h1>
         </div>
-        <div className="max-w-[1000px]">
-          <h1 className="text-5xl mb-10">
-            Bem vindos ao site de celebração de nossa união
-          </h1>
-          <div className="text-gray-400 text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab a,
-            dolorem nesciunt natus facere necessitatibus obcaecati perspiciatis
-            voluptatem esse rerum! Quos minus odio suscipit corporis doloremque
-            quas fuga. Nesciunt, quae. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Quidem quaerat ut accusantium.
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            adipisci ipsam vero soluta natus recusandae sit, doloribus
-            doloremque quasi libero. Quia neque sint exercitationem, similique
-            voluptatum fugiat fugit voluptates quo!
-          </div>
-        </div>
       </div>
     </div>
   );
