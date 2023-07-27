@@ -1,22 +1,12 @@
 import React from "react";
-import foto1 from "../assets/foto1.jpg";
-import foto2 from "../assets/foto2.jpg";
+import foto1 from "../assets/foto_home.jpg";
 
 function Home() {
   return (
     <div className="m-10 gap-5 ">
       <div className="flex flex-col justify-center items-center gap-10 mb-10">
-        <div className="w-auto flex ">
-          <img
-            className="max-h-[500px]  drop-shadow-2xl rounded-lg"
-            src={foto1}
-            alt="foto1"
-          />
-          <img
-            className="max-h-[300px]  rounded-lg drop-shadow-2xl "
-            src={foto2}
-            alt="foto2"
-          />
+        <div className="w-[800px] flex ">
+          <img className="drop-shadow-2xl rounded-lg" src={foto1} alt="foto1" />
         </div>
         <div className="flex justify-center content-center m-10 tracking-widest">
           <h1 className="py-5 text-2xl font-bold text-[#636566]  text-center border-r p-7 border-[#636566] ">
