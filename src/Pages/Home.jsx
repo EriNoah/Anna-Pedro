@@ -23,7 +23,7 @@ function Home() {
           <h1 className="text-5xl mb-10">
             Bem vindos ao site de celebração de nossa união
           </h1>
-          <p className="text-gray-400 text-lg">
+          <div className="text-gray-400 text-lg">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab a,
             dolorem nesciunt natus facere necessitatibus obcaecati perspiciatis
             voluptatem esse rerum! Quos minus odio suscipit corporis doloremque
@@ -34,7 +34,7 @@ function Home() {
             adipisci ipsam vero soluta natus recusandae sit, doloribus
             doloremque quasi libero. Quia neque sint exercitationem, similique
             voluptatum fugiat fugit voluptates quo!
-          </p>
+          </div>
         </div>
       </div>
     </div>
