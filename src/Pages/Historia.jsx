@@ -53,7 +53,7 @@ function Historia() {
             com vocês, obrigado por ter chegado até aqui com a gente!
           </div>
           <img
-            className="max-w-[200px] drop-shadow-2xl rounded-lg"
+            className="max-w-[300px] drop-shadow-2xl rounded-lg"
             src={foto3}
             alt="foto3"
           />
