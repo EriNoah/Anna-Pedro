@@ -6,6 +6,7 @@ import OCasamento from "./Pages/OCasamiento";
 import Historia from "./Pages/Historia";
 import Home from "./Pages/Home";
 import ListaDePresentes from "./Pages/ListaDePresentes";
+import Mensagens from "./Pages/Mensagens";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/o-casamento" element={<OCasamento />} />
         <Route path="/a-nossa-historia" element={<Historia />} />
         <Route path="/lista-de-presentes" element={<ListaDePresentes />} />
+        <Route path="/mensagens" element={<Mensagens />} />
       </Routes>
       <Footer />
     </Router>

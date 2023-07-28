@@ -47,6 +47,12 @@ function Navbar() {
         >
           Lista de Presentes
         </Link>
+        <Link
+          className="text-base text-[#636566] hover:underline focus:underline decoration-[#9ba5aa]"
+          to="/mensagens"
+        >
+          Mensagens
+        </Link>
       </div>
     </div>
   );
