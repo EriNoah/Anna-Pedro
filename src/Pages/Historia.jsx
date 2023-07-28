@@ -6,7 +6,7 @@ import foto3 from "../assets/nossa_historia_3.jpg";
 function Historia() {
   return (
     <>
-      <div className="div">
+      <div className="div text-[#636566]">
         <p className="flex p gap-5">
           Nos conhecemos nos primeiros dias de aula do curso de Filosofia e
           poucos dias depois já estávamos dividindo os detalhes de nossas vidas,
@@ -53,7 +53,7 @@ function Historia() {
             com vocês, obrigado por ter chegado até aqui com a gente!
           </div>
           <img
-            className="max-w-[300px] drop-shadow-2xl rounded-lg"
+            className="max-h-[250px] drop-shadow-2xl rounded-lg"
             src={foto3}
             alt="foto3"
           />
