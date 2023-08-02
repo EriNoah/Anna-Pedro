@@ -6,14 +6,23 @@ function Comments() {
   const [comments, setComments] = useState([]);
 
   useEffect(() => {
-    commentService.list().then((res) => setComments(res)).catch((err) => console.log(err));
-  }, [])
+    commentService
+      .list()
+      .then((res) => {
+        setComments(res.data);
+      })
+      .catch((err) => console.log(err));
+  }, []);
 
   return (
-    <div>
-      {comments.map((comment) => <div><Comment text={comment.text} author={comment.author}/></div>)}
+    <div className="flex gap-4 m-10">
+      {comments.map((comment) => (
+        <div key={comment.id}>
+          <Comment text={comment.text} author={comment.author} />
+        </div>
+      ))}
     </div>
-  )
+  );
 }
 
-export default Comments
+export default Comments;
