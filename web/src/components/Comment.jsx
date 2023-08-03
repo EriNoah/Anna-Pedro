@@ -12,11 +12,11 @@ function Comment({text, author}) {
         {text}
       </p>
     </h5>
-    <p className="font-normal text-gray-700 dark:text-gray-400">
-      <p>
+    <div className="font-normal text-gray-700 dark:text-gray-400">
+      <div>
       {author}
-      </p>
-    </p>
+      </div>
+    </div>
   </Card>
   )
 }
