@@ -16,11 +16,15 @@ function Comments() {
 
   return (
     <div className="flex gap-4 m-10">
-      {comments.map((comment) => (
-        <div key={comment.id}>
-          <Comment text={comment.text} author={comment.author} />
-        </div>
-      ))}
+      {comments.map((comment) => {
+        if (comment.confirm) {
+          return (
+            <div key={comment.id}>
+              <Comment text={comment.text} author={comment.author} />
+            </div>
+          );
+        }
+      })}
     </div>
   );
 }

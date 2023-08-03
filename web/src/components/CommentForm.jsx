@@ -53,7 +53,7 @@ function CommentForm() {
           <TextInput
             icon={HiUser}
             id="nome"
-            placeholder="Anna"
+            placeholder="Seu nome..."
             required
             type="text"
             {...register("author", {
@@ -84,8 +84,8 @@ function CommentForm() {
             })}
           />
         </div>
-        <Button className="w-full mt-6" type="submit">
-          Submit
+        <Button className="w-full mt-6" type="submit" color="light">
+          Enviar
         </Button>
       </form>
     </div>
