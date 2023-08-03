@@ -5,13 +5,16 @@ import { useForm } from "react-hook-form";
 import commentService from "../services/comments";
 
 function CommentForm() {
-  const { register, handleSubmit, setError } = useForm({ mode: "onBlur" });
+  const { register, handleSubmit, setError, reset } = useForm({
+    mode: "onBlur",
+  });
 
   const onCommentSubmit = async (comment) => {
     try {
       console.debug("Registering...");
       console.log(comment);
       comment = await commentService.create(comment);
+      reset();
     } catch (error) {
       const errors = error.response?.data?.errors;
       if (errors) {

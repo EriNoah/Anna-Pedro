@@ -15,7 +15,7 @@ function Comments() {
   }, []);
 
   return (
-    <div className="flex gap-4 m-10">
+    <div className="flex flex-wrap gap-14 m-10 justify-center ">
       {comments.map((comment) => {
         if (comment.confirm) {
           return (
@@ -24,6 +24,7 @@ function Comments() {
             </div>
           );
         }
+        return <></>;
       })}
     </div>
   );
