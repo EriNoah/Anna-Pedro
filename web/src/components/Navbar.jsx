@@ -5,10 +5,15 @@ import flores from "../assets/flores.webp";
 import CountdownTimer from "./CountdownTimer";
 
 function Navbar() {
-  const weedingDateInMinutes = 86 * 24 * 60 * 60 * 1000;
-  const NOW_IN_MS = new Date().getTime();
+  let countDownDate = new Date("Oct 23, 2023 16:50:00").getTime();
+  let now = new Date().getTime();
+  let timeleft = countDownDate - now;
 
-  const weedingDay = NOW_IN_MS + weedingDateInMinutes;
+  let days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+
+  const weedingDateInMinutes = days * 24 * 60 * 60 * 1000;
+
+  const weedingDay = now + weedingDateInMinutes;
 
   return (
     <div className="h-65 bg-white text-white flex flex-col justify-center items-center text-center">
