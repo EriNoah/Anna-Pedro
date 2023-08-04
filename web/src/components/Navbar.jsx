@@ -16,10 +16,13 @@ function Navbar() {
   const weedingDay = now + weedingDateInMinutes;
 
   return (
-    <div className="h-65 bg-white text-white flex flex-col justify-center items-center text-center">
-      <img className="h-80 text-center" src={flores} alt="flores" />
+    <div className=" bg-white text-white flex flex-col  text-center max-w-screen-xl  flex-wrap items-center justify-between mx-auto p-4">
+      <img
+        className="hidden sm:block md:w-auto sm:text-center "
+        src={flores}
+        alt="flores"
+      />
       <a href="/">
-        {/* <img className="h-56" src={logo} alt="annaPedro" /> */}
         <h1 className="uppercase tracking-wide text-[55px] font text-[#636566]">
           Anna & Pedro
         </h1>
@@ -33,31 +36,33 @@ function Navbar() {
       <div className="text-[#636566] tracking-widest m-3">
         <CountdownTimer targetDate={weedingDay} />
       </div>
-      <div className="flex gap-14 tracking-wider">
-        <Link
-          className="text-base text-[#636566] hover:underline focus:underline decoration-[#9ba5aa] "
-          to="/a-nossa-historia"
-        >
-          A Nossa Historia
-        </Link>
-        <Link
-          className="text-base text-[#636566] hover:underline focus:underline decoration-[#9ba5aa]"
-          to="/o-casamento"
-        >
-          O Casamento
-        </Link>
-        <Link
-          className="text-base text-[#636566] hover:underline focus:underline decoration-[#9ba5aa]"
-          to="/lista-de-presentes"
-        >
-          Lista de Presentes
-        </Link>
-        <Link
-          className="text-base text-[#636566] hover:underline focus:underline decoration-[#9ba5aa]"
-          to="/mensagens"
-        >
-          Mensagens
-        </Link>
+      <div classNeme="hidden w-full md:block md:w-auto" id="navbar-default">
+        <div className="gap-4 tracking-wider font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 ">
+          <Link
+            className="text-base text-[#636566] hover:underline focus:underline decoration-[#9ba5aa] "
+            to="/a-nossa-historia"
+          >
+            A Nossa Historia
+          </Link>
+          <Link
+            className="text-base text-[#636566] hover:underline focus:underline decoration-[#9ba5aa]"
+            to="/o-casamento"
+          >
+            O Casamento
+          </Link>
+          <Link
+            className="text-base text-[#636566] hover:underline focus:underline decoration-[#9ba5aa]"
+            to="/lista-de-presentes"
+          >
+            Lista de Presentes
+          </Link>
+          <Link
+            className="text-base text-[#636566] hover:underline focus:underline decoration-[#9ba5aa]"
+            to="/mensagens"
+          >
+            Mensagens
+          </Link>
+        </div>
       </div>
     </div>
   );
