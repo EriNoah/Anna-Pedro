@@ -6,8 +6,8 @@ import foto3 from "../assets/nossa_historia_3.jpg";
 function Historia() {
   return (
     <>
-      <div className="div md:flex md:flex-col min-[]:md:justify-center md:items-center max-w-screen-xl  text-[#636566]">
-        <div className="flex-col p gap-5 md:flex md:flex-row md:justify-center md:items-center md:w-[800px]">
+      <div className="div flex flex-col justify-center md:flex md:flex-col min-[]:md:justify-center md:items-center max-w-screen-xl text-[#636566">
+        <div className="flex-col justify-center p gap-5 md:flex md:flex-row md:justify-center md:items-center md:w-[800px]">
           <div className="text-sm mb-3 md:text-base">
             Nos conhecemos nos primeiros dias de aula do curso de Filosofia e
             poucos dias depois já estávamos dividindo os detalhes de nossas
